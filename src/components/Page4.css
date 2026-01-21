@@ -1,0 +1,55 @@
+.p4-container {
+  height: 100%;
+  padding: 0.4rem 0.24rem;
+  background: #f8f9fa;
+  box-sizing: border-box;
+}
+
+.p4-title {
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.p4-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.p4-card {
+  background: white;
+  padding: 0.2rem;
+  border-radius: 0.12rem;
+  box-shadow: 0 0.02rem 0.08rem rgba(0,0,0,0.05);
+}
+
+.p4-card-title {
+  font-size: 0.15rem;
+  color: #666;
+  margin-bottom: 0.08rem;
+}
+
+.p4-card-num {
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #34a853;
+}
+
+.p4-alert {
+  background: #ffebee;
+  color: #c62828;
+  padding: 0.24rem;
+  border-radius: 0.12rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.18rem;
+}
+
+.p4-alert span {
+    display: block;
+    font-size: 0.4rem;
+    margin-top: 0.1rem;
+}

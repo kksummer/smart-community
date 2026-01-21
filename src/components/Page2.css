@@ -1,0 +1,96 @@
+.p2-container {
+  height: 100%;
+  padding: 0.4rem 0.24rem;
+  background: #f8f9fa;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p2-title {
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.p2-content {
+  background: white;
+  padding: 0.3rem;
+  border-radius: 0.16rem;
+  box-shadow: 0 0.04rem 0.12rem rgba(0,0,0,0.05);
+}
+
+.p2-big-num {
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #1a73e8;
+  line-height: 1;
+  margin: 0.2rem 0;
+}
+
+.p2-text {
+  font-size: 0.16rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.p2-chart-area {
+  margin-top: 0.4rem;
+}
+
+.p2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.15rem;
+}
+
+.p2-card {
+  background: white;
+  padding: 0.2rem 0.15rem;
+  border-radius: 0.12rem;
+  box-shadow: 0 0.04rem 0.12rem rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.p2-card-label {
+  font-size: 0.14rem;
+  color: #666;
+  margin-bottom: 0.1rem;
+  height: 0.4rem; /* fixed height for alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p2-card-value {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #1a73e8;
+  margin-bottom: 0.1rem;
+}
+
+.p2-card-trend {
+  font-size: 0.12rem;
+  color: #999;
+}
+
+.p2-card-trend.up {
+  color: #d93025;
+}
+
+.p2-card-trend.down {
+  color: #188038;
+}
+
+.p2-summary {
+  margin-top: 0.3rem;
+  background: #e8f0fe;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+  font-size: 0.15rem;
+  color: #1967d2;
+  line-height: 1.5;
+}

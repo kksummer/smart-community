@@ -1,0 +1,35 @@
+.p7-container {
+  height: 100%;
+  padding: 0.4rem 0.24rem;
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.p7-logo-area {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #f1f3f4;
+  border-radius: 50%;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p7-title {
+  font-size: 0.24rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+}
+
+.p7-text {
+  font-size: 0.32rem;
+  color: #1a73e8;
+  font-weight: bold;
+}
