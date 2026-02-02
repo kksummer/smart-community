@@ -1,7 +1,11 @@
 .p4-container {
   height: 100%;
   padding: 0.4rem 0.24rem;
-  background: #f8f9fa;
+  background: linear-gradient(
+  180deg,
+  #F5F7FA 0%,
+  #FFFFFF 100%
+);
   box-sizing: border-box;
 }
 

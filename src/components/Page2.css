@@ -1,7 +1,11 @@
 .p2-container {
   height: 100%;
   padding: 0.4rem 0.24rem;
-  background: #f8f9fa;
+  background: linear-gradient(
+  180deg,
+  #F2F6FB 0%,
+  #F8F9FA 100%
+);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

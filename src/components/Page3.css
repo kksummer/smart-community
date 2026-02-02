@@ -1,7 +1,11 @@
 .p3-container {
   height: 100%;
   padding: 0.4rem 0.24rem;
-  background: white;
+  background: linear-gradient(
+  180deg,
+  #E6F0FF 0%,
+  #FFFFFF 85%
+);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
