@@ -1,11 +1,20 @@
 import React from "react";
+import logoImg from "../assets/logo.png";
 import "./Page7.css";
 
 const Page7 = () => {
   return (
     <div className="p7-container">
-      <div className="p7-logo-area" data-swiper-parallax-scale="0.5">
-        <span>LOGO</span>
+      <div
+        className="p7-logo-area"
+        data-swiper-parallax-scale="0.5"
+        style={{ background: "transparent" }}
+      >
+        <img
+          src={logoImg}
+          alt="logo"
+          style={{ width: "100%", height: "auto" }}
+        />
       </div>
 
       <h2 className="p7-title" data-swiper-parallax="-100">
@@ -26,7 +35,7 @@ const Page7 = () => {
         如有任何建议或疑问，欢迎通过
         <br />
         <strong style={{ color: "#1a73e8" }}>
-          “天翼智慧社区服务号-我的小区-投诉建议”
+          “天翼智慧社区服务号-投诉建议”
         </strong>
         <br />
         留言
@@ -39,7 +48,7 @@ const Page7 = () => {
           fontSize: "0.12rem",
         }}
       >
-        天翼视联 · 智慧社区月度运营报告
+        智慧社区月度运营报告
       </div>
     </div>
   );

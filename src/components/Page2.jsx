@@ -5,36 +5,43 @@ const Page2 = () => {
   return (
     <div className="p2-container">
       <h2 className="p2-title" data-swiper-parallax="-200">
-        本月总体情况良好
+        智慧社区 · 总体建设
       </h2>
 
       <div className="p2-grid" data-swiper-parallax="-100">
         <div className="p2-card">
-          <div className="p2-card-label">视频AI告警</div>
-          <div className="p2-card-value">123</div>
-          <div className="p2-card-trend down">环比 ↓ 10%</div>
+          <div className="p2-card-label">小区平台开通</div>
+          <div className="p2-card-value">
+            13
+            <span className="p2-card-unit">个</span>
+          </div>
         </div>
         <div className="p2-card">
-          <div className="p2-card-label">物业处置率</div>
-          <div className="p2-card-value">98%</div>
-          <div className="p2-card-trend up">环比 ↑ 2.1%</div>
+          <div className="p2-card-label">监控点位新建</div>
+          <div className="p2-card-value">
+            52
+            <span className="p2-card-unit">个</span>
+          </div>
         </div>
         <div className="p2-card">
-          <div className="p2-card-label">慧眼观看</div>
-          <div className="p2-card-value">5,68</div>
-          <div className="p2-card-trend up">环比 ↑ 12%</div>
+          <div className="p2-card-label">覆盖居民</div>
+          <div className="p2-card-value">
+            13769
+            <span className="p2-card-unit">人</span>
+          </div>
         </div>
         <div className="p2-card">
-          <div className="p2-card-label">家人关爱</div>
-          <div className="p2-card-value">892</div>
-          <div className="p2-card-trend up">环比 ↑ 8%</div>
+          <div className="p2-card-label">人脸录入</div>
+          <div className="p2-card-value">
+            1258
+            <span className="p2-card-unit">人</span>
+          </div>
         </div>
       </div>
 
       <div className="p2-summary" data-swiper-parallax-scale="0.9">
-        <p>✨ 告警量显著下降，社区秩序持续向好。</p>
-        <p style={{ marginTop: "0.1rem" }}>
-          ✨ 居民参与度大幅提升，共治共享氛围浓厚。
+        <p>
+          实现智能监控全覆盖。完成1个小区智能化改造及智能门禁部署，有效提升社区治理效能与居民居住体验，同步拉动产数收入增长。
         </p>
       </div>
     </div>

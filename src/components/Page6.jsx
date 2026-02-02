@@ -10,23 +10,39 @@ const Page6 = () => {
 
       <div className="p6-card" data-swiper-parallax="-100">
         <div className="p6-card-title">
-          <span className="p6-card-icon">🔥</span> 安全提醒
+          <span className="p6-card-icon">🔥</span> 安全提示
         </div>
         <div className="p6-card-text">
-          夏季高温，请居民注意用电安全，切勿将电动车电池带入室内充电。
+          季节交替，请注意用电安全；严禁电动车及电池进楼入户补能。
         </div>
       </div>
 
-      <div className="p6-card" data-swiper-parallax="-100">
+      <div className="p6-card" data-swiper-parallax="-150">
+        <div className="p6-card-title">
+          <span className="p6-card-icon">🏘️</span> 邻里互助
+        </div>
+        <div className="p6-card-text">
+          守望相助，共筑暖心社区。如遇孤寡老人需要帮助，请联系物业。
+        </div>
+      </div>
+
+      <div className="p6-card" data-swiper-parallax="-200">
         <div className="p6-card-title">
           <span className="p6-card-icon">🏙️</span> 文明倡议
         </div>
         <div className="p6-card-text">
-          高空抛物威胁生命安全，让我们携手共建“无高抛”社区。
+          拒绝高空抛物，爱护公共设施。文明每一步，和谐全社区。
         </div>
       </div>
 
-      <div className="p6-footer-img placeholder-img">社区风景/海报占位</div>
+      <div className="p6-card" data-swiper-parallax="-250">
+        <div className="p6-card-title">
+          <span className="p6-card-icon">💬</span> 意见反馈
+        </div>
+        <div className="p6-card-text">
+          如您对智慧社区建设有任何建议，欢迎通过反馈渠道向我们留言。
+        </div>
+      </div>
     </div>
   );
 };

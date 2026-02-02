@@ -3,8 +3,8 @@
   padding: 0.4rem 0.24rem;
   background: linear-gradient(
   180deg,
-  #F2F6FB 0%,
-  #F8F9FA 100%
+  #F4E8D1 0%,
+  #FDFBF9 100%
 );
   box-sizing: border-box;
   display: flex;
@@ -70,10 +70,17 @@
 }
 
 .p2-card-value {
-  font-size: 0.32rem;
+  font-size: 0.28rem;
   font-weight: bold;
   color: #1a73e8;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.05rem;
+}
+
+.p2-card-unit {
+  font-size: 0.12rem;
+  color: #666;
+  font-weight: normal;
+  margin-left: 0.02rem;
 }
 
 .p2-card-trend {
@@ -94,7 +101,7 @@
   background: #e8f0fe;
   padding: 0.2rem;
   border-radius: 0.1rem;
-  font-size: 0.15rem;
-  color: #1967d2;
-  line-height: 1.5;
+  font-size: 0.14rem;
+  color: #444;
+  line-height: 1.6;
 }

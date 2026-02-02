@@ -1,12 +1,7 @@
 .p5-container {
   height: 100%;
   padding: 0.4rem 0.24rem;
-  background: linear-gradient(
-  180deg,
-  #FFF4E5 0%,
-  #FFF9F2 60%,
-  #FFFFFF 100%
-);
+  background: linear-gradient(180deg, #F5E7D3 0%, #FDFBF9 100%);
   box-sizing: border-box;
 }
 
